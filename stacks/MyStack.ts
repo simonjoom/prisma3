@@ -38,8 +38,8 @@ export function MyStack({ stack, app }: StackContext) {
       function: {
         environment: {
           DATABASE_URL: app.local
-            ? "mysql://root@localhost:3306/test"
-            : "mysql://production-url",
+            ? "mysql://etqust46yh38:pscale_pw_Dx-OAS93vzuNbheNn4d9puQSHBfdHt5xEQT4Lib9tTE@shze01dtay9i.eu-central-1.psdb.cloud/prisma-serverless?sslaccept=strict"
+	    : "mysql://ugmqh8vtx3zl:pscale_pw_ncon39eGR6hvo1IJPQAemc3XJ1AwImRTtRG-i-TSV4s@eno3xjfj9s5q.eu-central-1.psdb.cloud/prisma-serverless?sslaccept=strict"
         },
         bundle: {
           // Only reference external modules when deployed
